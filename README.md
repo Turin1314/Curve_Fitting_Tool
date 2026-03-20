@@ -1,2 +1,37 @@
-# Curve_Fitting_Tool
-A curve fitting tool that contains 25 most commonly used equations, which can provide a general idea which model the data potentially fits best. However, please notice that the curve fits best may not be the equation that you are looking for. More development is still ongoing.
+# 曲线拟合工具 v9.0
+
+一个功能强大的曲线拟合工具，支持25种数学模型和全面的边界检查功能。
+
+## ✨ 功能特点
+
+### 📊 25种数学模型
+- **多项式族**：线性、二次、三次、四次、五次多项式
+- **指数函数族**：指数增长、指数衰减、双指数衰减、三指数衰减、Weibull、拉伸指数
+- **幂函数族**：幂函数、反比例、平方根
+- **对数函数族**：对数、对数平方、对数线性
+- **有理函数族**：1/x型、x/(1+x)型、二次/一次型、一次/二次型
+- **S形曲线**：逻辑斯蒂、Gompertz、反正切、误差函数
+
+### 🎯 全面的边界检查
+- **数值约束**：上下限约束
+- **趋势约束**：递增/递减检查
+- **单调性检查**：严格/非严格单调
+- **外推检查**：左侧/右侧/两侧外推
+- **端点检查**：起点/终点偏差检查
+- **曲率检查**：凸函数/凹函数
+- **渐近线检查**：指定渐近线值
+
+### 📈 可视化功能
+- 4个子图显示：最佳拟合曲线、残差分析、模型比较、外推边界
+- 实时显示拟合方程和R²值
+- 边界检查状态面板
+- 可调节预测范围
+
+## 🚀 安装方法
+
+### 方法一：直接运行（需要Python环境）
+
+1. 确保已安装Python 3.7+
+2. 安装依赖包：
+```bash
+pip install numpy scipy pandas matplotlib
